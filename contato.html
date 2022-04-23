@@ -1,0 +1,95 @@
+<!DOCType html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-sobre.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link href="imagens/Logotipo64.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/style-menu.css">
+    <title>Contato - Gama Academy G10</title>
+</head>
+
+<body>
+
+    <!-- INICIO Botão SUBIR -->
+    <button onclick="topFunction()" id="subir" title="Ir ao topo">Topo</button>
+    <!-- FIM Botão SUBIR -->
+
+    <!-- INICIO MENU -->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="imagens/logotipo1064.png">
+                <h1>Gama Academy G10</h1>
+            </label>
+            <ul class="navegacao">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="saibamais.html">SAIBA MAIS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- FIM MENU -->
+
+    <main>
+
+        <div class="box-title">
+            <img class="box-image" src="imagens/contato.png">
+            <h1 align="center">Contato</h1>
+        </div>
+
+        <div class="contato">
+            <div class="formulario">
+                <form id="contact-form" name="formulario">
+                    <label for="nome">Nome</label>
+                    <input classe="input" type="text" id="nomeid" placeholder="Seu nome" required name="nome" />
+                    <br>
+                    <label for="fone">Telefone</label>
+                    <input classe="input" type="telefone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" />
+                    <br>
+                    <label for="email">E-mail</label>
+                    <input classe="input" type="email" id="emailid" placeholder="Seu@mail.com" required name="email" />
+                    <br>
+                    <textarea placeholder="Mensagem" id="mensagemid"></textarea>
+                    <br>
+                    <button class="limpar" type="reset"> Limpar </button>
+                    <button class="enviar" type="submit"> Enviar </button>
+                </form>
+            </div>
+            <hr>
+            <h3>Nosso Contato:</h3>
+            <h3>Email&nbsp;&nbsp;<img src="imagens/icones/email.png" alt="Icone de Email" width="32px"
+                    height="20px">&nbsp;&nbsp;:&nbsp;<a
+                    href="mailto:gamaacademyg10@gmail.com">gamaacademyg10@gmail.com</a></h3>
+            <h3>Ficou dúvida? Clique no Icone do Whatsapp</h3>
+        </div>
+
+        <footer>
+            <div>
+                <h4>© Copyright 2021 : Todos direitos reservados G10</h4>
+            </div>
+            <div>
+                <a href="mailto:gamaacademyg10@gmail.com"><img id="envelope" src="imagens/envelope.png" width="60px"
+                        height="60px" alt="Envelope"></a>
+                <a href="https://api.whatsapp.com/send?phone=5513981125581&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+                    target="_blank"><img src="imagens/wpp.png" width="50px" height="50px" alt="WhatsApp"></a>
+            </div>
+        </footer>
+        <a href="https://api.whatsapp.com/send?phone=5513981125581&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+            class="whatsapp-button" target="_blank">
+            <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"></a>
+        <script type="text/javascript" src="js/script.js"></script>
+    </main>
+</body>
+
+</html>
